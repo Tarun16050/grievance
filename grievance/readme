@@ -1,0 +1,29 @@
+@Tarun Patidar
+Project Name :  Grievance
+************************************************************************************************
+The Grievance Management System is a web-based application designed to streamline the process of handling grievances and complaints. This system aims to provide an efficient and transparent platform for users to raise their concerns, DSDOs to manage and resolve grievances, and administrators to oversee the entire process.
+In this project there are 3 roles .
+    1.User
+    2.Dsdo
+    3.Admin
+
+User :
+Users are individuals who can submit grievances and complaints through the system. They can track the progress and status of their complaints and receive updates.
+
+DSDO (District Social Development Officer) :
+DSDOs are responsible for reviewing and addressing the grievances submitted by users within their respective districts. They can prioritize, assign, and communicate with users to resolve the issues effectively.
+
+Admin :
+Administrators have the highest level of access. They manage user accounts, monitor the overall system, generate reports, and ensure the system operates smoothly.
+@ Tarun Patidar 
+********************************************************************************************
+Database
+
+Database Name : grievance
+
+there Are 3 Tables;-
+1. registration Table : registration_table
+2. Grievance Table  : grievance_table
+3. User(role) Table : users
+@Tarun Patidar 
+********************************************************************************************
