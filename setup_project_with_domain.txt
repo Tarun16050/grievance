@@ -1,0 +1,28 @@
+HOST
+C:\Windows\System32\drivers\etc\hosts
+127.0.0.1 sag.silvertouch.com
+=============================================================================
+
+D:\wamp64\bin\apache\apache2.4.41\conf\extra\httpd-vhosts.conf
+<VirtualHost *:80>
+  ServerName sag.silvertouch.com
+  DocumentRoot D:\wamp64\www/sag
+  <Directory "D:\wamp64\www/sag/">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride all
+    Require local
+  </Directory>
+</VirtualHost>
+===================================================================================
+
+D:\xampp\apache\conf\extra\httpd-vhosts.conf
+
+<VirtualHost *:80>
+  ServerName tarun.com
+  DocumentRoot "C:/xampp/htdocs/grievance"
+  <Directory "C:/xampp/htdocs/grievance">
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride all
+    Require local
+  </Directory>
+</VirtualHost>
